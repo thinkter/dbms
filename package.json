@@ -1,0 +1,11 @@
+{
+  "name": "khoji-workspace",
+  "private": true,
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "dev": "pnpm --filter @khoji/web dev",
+    "build": "pnpm --filter @khoji/web build",
+    "typecheck": "pnpm --filter @khoji/web typecheck",
+    "deploy": "pnpm --filter khoji-worker deploy"
+  }
+}
