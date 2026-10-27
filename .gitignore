@@ -1,0 +1,11 @@
+.env
+data/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.cloudflare/
+
+.dev.vars*
+.wrangler/
+dist/
